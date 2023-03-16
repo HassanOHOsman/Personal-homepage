@@ -1,0 +1,84 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 10px;
+  height: 100%;
+  font-size: large;
+  font-family: 'Goldman', cursive;
+  background-image: linear-gradient(to right, #f1faee, #a8dadc, #457b9d, #1d3557)
+}
+
+.c-site-header {
+  background: #8d99ae;
+  margin-bottom: 50px;
+  tex-align: right; 
+  padding: 7px;
+}
+
+.btn {
+  margin: 120px; 
+}
+
+#img {
+   width: 17%;
+  margin-left: 25px;
+  border: 7px solid white;
+  border-radius: 10%;   
+}
+
+#name {
+  margin-top: 5px;
+  margin-bottom: 70px;  
+}
+
+#int {
+  margin-top: 50px;
+}
+
+#motivations {
+  margin-bottom: 60px;
+}
+
+.interests {
+   text-align:center;
+  margin-top: 150px; 
+}
+
+.list {
+  text-align:center;
+  list-style-position: inside;
+}
+
+.motivation-title {
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.motivation-img {
+    margin: 30px auto 100px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+#vid {
+  display: block;
+  margin: 200px auto 20px auto;
+}
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
